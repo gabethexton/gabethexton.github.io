@@ -46,6 +46,13 @@ body {
     text-transform: uppercase;
 }
 
+.main h2 {
+    color: #fff;
+    margin: 0;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
 .main hr {
     width: 80%;
 }
@@ -82,7 +89,7 @@ body {
 }
 
 .portfolio {
-    width: 25%;
+    width: 20%;
     display: inline-block;
     margin: 0 auto;
     color: white;
