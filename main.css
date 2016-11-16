@@ -47,7 +47,14 @@ body {
 }
 
 .main h2 {
-    color: #fff;
+    color: white;
+    margin: 0;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+#tag-line {
+    color: black;
     margin: 0;
     font-size: 50px;
     text-transform: uppercase;
@@ -62,20 +69,20 @@ body {
     width: 25%;
     display: inline-block;
     margin: 0 auto;
-    color: black;
+    color: white;
 }
 
 .article div {
     width: 80%;
     margin: 0 auto;
-    background-color: white;
+    background-color: rgba(0, 0, 0, 0.6);
     padding: 2px;
     border-radius: 2px;
 }
 
 .article p {
     text-align: center;
-    color: black;
+    color: white;
 }
 
 #portfolio {
