@@ -1,0 +1,129 @@
+/* Main */
+
+html, body {
+    height: 100%;
+    font-family: 'Julius Sans One', sans-serif;
+    background-color: black;
+}
+
+body {
+    background-color: black;
+    overflow: scroll;
+}
+
+.main {
+    position: relative;
+    text-align: center;
+    background-color: black;
+    overflow: scroll;
+    height: 1500px;
+}
+
+.main #main {
+    position: relative;
+    text-align: center;
+    height: 1000px;
+    background: url(/assets/mainbg.jpg) no-repeat center center;
+    /*Image Credit - Caroline Cavalli - https://stocksnap.io/photo/0FYSS4XW5O */
+    background-size: cover;
+    background-color: black;
+    overflow: scroll;
+}
+
+.horizontal-divider {
+    padding-top: 20px;
+}
+
+.main #main .container-fluid {
+    position: relative;
+    top: 50px;
+}
+
+.main h1 {
+    color: #fff;
+    margin: 0;
+    font-size: 150px;
+    text-transform: uppercase;
+}
+
+.main hr {
+    width: 80%;
+}
+
+.article {
+    vertical-align: top;
+    width: 25%;
+    display: inline-block;
+    margin: 0 auto;
+    color: black;
+}
+
+.article div {
+    width: 80%;
+    margin: 0 auto;
+    background-color: white;
+    padding: 2px;
+    border-radius: 2px;
+}
+
+.article p {
+    text-align: center;
+    color: black;
+}
+
+#portfolio {
+    padding-top: 30px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+#portfolio h3 {
+    color: white;
+}
+
+.portfolio {
+    width: 25%;
+    display: inline-block;
+    margin: 0 auto;
+    color: white;
+    vertical-align: top;
+}
+
+.portfolio div {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.portfolio p, .portfolio a {
+    text-decoration: none;
+    text-align: center;
+    color: white;
+}
+
+.panel-footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    border: none;
+    background-color: black;
+    text-align: center;
+}
+
+.social {
+    margin: 0 auto;
+    width: 250px;
+    background-color: gray;
+    background-color: transparent;
+}
+
+.social .fa {
+    padding: 10px;
+    font-size: 30px;
+    color: white;
+}
+
+.quotable .fa {
+    padding: 10px;
+    font-size: 30px;
+    color: white;
+}
