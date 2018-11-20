@@ -67,7 +67,7 @@ body {
 .article {
     vertical-align: top;
     width: 25%;
-    display: inline-flex;
+    display: inline-table;
     margin: 0 auto;
     color: white;
 }
