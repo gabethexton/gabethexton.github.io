@@ -22,9 +22,9 @@ body {
 .main #main {
     position: relative;
     text-align: center;
-    height: 1000px;
+    height: 1500px;
     background: url(/assets/mainbg3.jpeg) no-repeat center center;
-    /*Image Credit - Caroline Cavalli - https://stocksnap.io/photo/0FYSS4XW5O */
+    /*Image Credit - Gabe Thexton - gabethexton.com */
     background-size: cover;
     background-color: black;
     overflow: scroll;
@@ -67,7 +67,7 @@ body {
 .article {
     vertical-align: top;
     width: 25%;
-    display: inline-block;
+    display: inline;
     margin: 0 auto;
     color: white;
 }
